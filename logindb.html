@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+<style>
+	*{
+	padding:0;
+	margin:0;
+	}
+
+	li{
+	list-style:none;
+	}
+
+	a{
+	text-decoration:none;
+	}
+
+	body{
+	width:1400px;
+	margin:0 auto;
+	}
+
+	header{
+	width:1400px;
+	height:250px;
+	text-align:center;
+	border-bottom:1px solid #512771;
+	}
+
+	header ul{
+	width:1400px;
+	height:50px;
+	border-top:1px solid #512771;
+
+	}
+
+	header li{
+	float:left;
+	width:280px;
+	text-align:center;
+	line-height:50px;
+	}
+
+	header li a{
+	color:#512771;
+	font-size:15px;
+	font-weight:800;
+	}
+
+
+h1{
+font-weight:500px;
+font-size:40px;
+text-align:center;
+margin-top:5%;
+color:#512771;
+}
+
+#main{
+width:500px;
+height:300px;
+margin:0 auto;
+margin-top:50px;
+}
+
+#main .id{
+width:480px;
+height:40px;
+padding:10px;
+margin:10px 0;
+}
+
+#main .pw{
+width:480px;
+height:40px;
+padding:10px;
+margin:10px 0;
+}
+
+#main .login{
+width:500px;
+height:70px;
+background-color:#3f3f3f;
+color:#fff;
+border:none;
+font-size:17px;
+font-weight:800;
+margin-top:5%;
+}
+
+#sub{
+width:325px;
+height:50px;
+margin: 0 auto;
+}
+
+#sub a{
+font-size:12px;
+font-weight:400;
+color:#000;
+}
+
+#sub li{
+float:left;
+padding-right:25px;
+text-align:center;
+line-height:50px;
+}
+
+#sub li:nth-child(5){
+padding-right:0px;
+}
+
+footer{
+width:500px;
+border-top:1px solid #898989;
+margin:0 auto;
+margin-top:50px;
+}
+
+footer p{
+text-align:center;
+font-size:10px;
+padding:20px 0;
+color:#898989;
+}
+
+</style>
+
+ </head>
+ <body>
+
+  <header>
+	<img src="logo.jpg" width="200" height="200" border="0" alt="로고" align="center">
+  
+
+<ul>
+	<li><a href="#">전체카테고리</a></li>
+	<li><a href="#">신상품</a></li>
+	<li><a href="#">베스트</a></li>
+	<li><a href="#">알뜰쇼핑</a></li>
+	<li><a href="#">이벤트</a></li>
+</ul>
+</header>
+
+<h1>로그인</h1>
+
+<div id="main">
+<form method="post" action="loginaction.jsp">
+	<input type="text" placeholder="아이디를 입력해주세요" name="id" class="id"/>
+	<input type="password" placeholder="비밀번호를 입력해 주세요" name="pw" class="pw"/>
+	<input type="submit" value="로그인" class="login"/>
+	</form>
+</div>
+
+<ul id="sub">
+	<li><a href="#">아이디 찾기</a></li>
+	<li> ㅣ </li>
+	<li><a href="#">비밀번호 찾기</a></li>
+	<li> ㅣ </li>
+	<li><a href="#">회원가입</a></li>
+</ul>
+
+<footer>
+<p>회사 : 애경산업(주)주소 : 서울특별시 마포구 양화로 188 10F ~ 13F,2F층(동교동, 애경타워)<br/>
+대표 : 이윤규, 채동석사업자등록번호 : 113-81-11573통신판매업신고번호 : 제 2018-서울마포-1843호<br/>
+개인정보관리자 : 박영일 / pyi@aekyung.kr팩스번호 : 02-2014-7097<br/>
+Copyright © akbeauty.co.kr All right reserved</p></footer>
+ </body>
+</html>
